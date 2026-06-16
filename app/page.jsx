@@ -1,8 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import supabase from './supabase'; // Adjusted to './' assuming it lives in your app directory
-
+import supabase from './Supabase';
 export default function Home() {
   const videoRef = useRef(null);
   const [currentTime, setCurrentTime] = useState(0);
