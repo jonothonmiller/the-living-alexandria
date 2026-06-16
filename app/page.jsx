@@ -1,6 +1,6 @@
 import React from 'react';
-import VideoPlayer from './components/VideoPlayer';
-import Comments from './components/Comments';
+import VideoPlayer from '../components/VideoPlayer';
+import Comments from '../components/Comments';
 
 export default function Home() {
   return (
